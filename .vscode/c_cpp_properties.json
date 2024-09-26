@@ -1,0 +1,19 @@
+{
+  "configurations": [
+    {
+      "name": "windows-gcc-x86",
+      "includePath": [
+        "${workspaceFolder}/**",
+        "D:/Include"  // Add the path to your Npcap SDK Include directory
+      ],
+      "compilerPath": "C:/MinGW/bin/gcc.exe",
+      "cStandard": "c11",  // You can adjust this based on your C standard (c99, c11, etc.)
+      "cppStandard": "c++17",  // Set the C++ standard, adjust if necessary
+      "intelliSenseMode": "windows-gcc-x86",
+      "compilerArgs": [
+        "-ID:/Include"  // Additional argument to include the header files during compilation
+      ]
+    }
+  ],
+  "version": 4
+}
